@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import Logo from '../components/Logo';
 import SocialGroup from '../components/SocialGroup';
 import PgaIntro from '../components/PgaIntro';
+import Message from '../components/Message';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SocialGroup />
       <Button />
       <PgaIntro />
+      <Message />
     </div>
   );
 }
