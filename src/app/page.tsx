@@ -6,7 +6,7 @@ import Connect from '../components/Connect';
 
 export default function Home() {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto bg-body-pattern'>
       <Navbar />
       <PgaIntro />
       <Message />
