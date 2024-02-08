@@ -3,7 +3,7 @@ import Image from "next/image"
 function Logo() {
     return (
         <div>
-            <Image src='/logo.svg' alt="logo" width='70' height='70'/>
+            <Image src='/logo.svg' alt="logo" width='50' height='50'/>
         </div>
     )
 }
