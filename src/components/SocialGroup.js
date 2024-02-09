@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-function SocialGroup() {
+function SocialGroup({ top }) {
   return (
-    <div className="flex gap-5">
+    <div className={top ? 'hidden md:flex gap-5' : 'flex gap-5'}>
       <span>
         <Image alt="social-icon" src={'/telegram.svg'} width={50} height={50} />
       </span>
