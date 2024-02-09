@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Bungee';
+  src: url('../../public/fonts/Bungee/Changa/Changa-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../../public/fonts/Satoshi/Fonts/Variable/Satoshi-Variable.ttf');
+  }

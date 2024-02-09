@@ -3,8 +3,8 @@ import Button from './Button';
 
 export default function PgaIntro() {
   return (
-    <div className="flex flex-col justify-center items-center text-center">
-      <div>
+    <div className="flex flex-col justify-center items-center text-center leading-5">
+      <div className=' font-bungee'>
         <p className="text-4xl leading-10 mb-3 font-medium">
           Step into a realm where intention  
         </p>
@@ -22,7 +22,7 @@ export default function PgaIntro() {
           noblest potential - empowering Africa!
         </p>
       </div>
-      <div>
+      <div className='my-3'>
         <Button />
       </div>
     </div>
