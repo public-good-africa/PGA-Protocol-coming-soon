@@ -4,7 +4,7 @@ import Button from './Button';
 export default function PgaIntro() {
   return (
     <div className="flex flex-col justify-center items-center text-center leading-5">
-      <div className=' font-bungee'>
+      <div className=' font-bungee leading-10'>
         <p className="text-4xl leading-10 mb-3 font-medium">
           Step into a realm where intention  
         </p>
@@ -12,7 +12,7 @@ export default function PgaIntro() {
           thrives and dreams take flight.
         </p>
       </div>
-      <div className="py-5 text-center font-medium text-base">
+      <div className="py-5 text-center font-satoshi font-medium text-base opacity-70">
         <p className="">
           We are building a platform and community where funding, collaboration,
           and innovation converge to create

@@ -6,7 +6,7 @@ import Connect from '../components/Connect';
 
 export default function Home() {
   return (
-    <div className="bg-body-pattern">
+    <div className="bg-body-pattern font-satoshi">
       <div className='container mx-auto '>
         <Navbar />
         <PgaIntro />
