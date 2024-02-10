@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function SocialGroup({ top }) {
   return (
-    <div className={top ? 'hidden md:flex gap-5' : 'flex gap-5'}>
+    <div className={top ? 'flex gap-5' : 'flex gap-5'}>
       <Link href="https://t.me/publicgoodAfrica/1" target='_blank' scroll={false}>
         <Image alt="social-icon" src={'/telegram.svg'} width={50} height={50} />
       </Link>
