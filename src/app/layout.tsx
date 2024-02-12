@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Public good africa',
-  description: 'join our waitlist',
+  description: 'Coming soon!',
   icons: {
     icon: '/logo.svg',
     apple: '/logo.svg'
